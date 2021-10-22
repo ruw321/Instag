@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882AD214243F29EF6D26025F /* Pods_InstagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835D291B71169C0005D623B0 /* Pods_InstagTests.framework */; };
+		93D13879272241CF001417FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D13878272241CF001417FC /* AppDelegate.swift */; };
+		93D1387B272241CF001417FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1387A272241CF001417FC /* SceneDelegate.swift */; };
+		93D13880272241CF001417FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D1387E272241CF001417FC /* Main.storyboard */; };
+		93D13882272241CF001417FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D13881272241CF001417FC /* Assets.xcassets */; };
+		93D13885272241CF001417FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D13883272241CF001417FC /* LaunchScreen.storyboard */; };
+		93D13890272241D0001417FC /* InstagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1388F272241D0001417FC /* InstagTests.swift */; };
+		93D1389B272241D0001417FC /* InstagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1389A272241D0001417FC /* InstagUITests.swift */; };
+		93D138A927224544001417FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D138A827224544001417FC /* LoginViewController.swift */; };
+		93D138AB27224557001417FC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D138AA27224557001417FC /* FeedViewController.swift */; };
+		93D138AD27224D75001417FC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D138AC27224D75001417FC /* CameraViewController.swift */; };
+		93D138AF272256AE001417FC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D138AE272256AE001417FC /* PostCell.swift */; };
+		AAD0089AC73C796D471CB700 /* Pods_Instag_InstagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F267754A31E416BCD7FB2813 /* Pods_Instag_InstagUITests.framework */; };
+		FB038C2D19A5E6E3291A24DB /* Pods_Instag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9776173C3560E401ACB194 /* Pods_Instag.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93D1388C272241D0001417FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D1386D272241CE001417FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D13874272241CE001417FC;
+			remoteInfo = Instag;
+		};
+		93D13897272241D0001417FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D1386D272241CE001417FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D13874272241CE001417FC;
+			remoteInfo = Instag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EB9605D52641125B69C144 /* Pods-Instag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instag.debug.xcconfig"; path = "Target Support Files/Pods-Instag/Pods-Instag.debug.xcconfig"; sourceTree = "<group>"; };
+		12655EF07F00559AE963A3F2 /* Pods-Instag-InstagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instag-InstagUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instag-InstagUITests/Pods-Instag-InstagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		156EE8775FB2349352D1CE30 /* Pods-InstagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagTests.release.xcconfig"; path = "Target Support Files/Pods-InstagTests/Pods-InstagTests.release.xcconfig"; sourceTree = "<group>"; };
+		27D06E320F431AD7CBED3B60 /* Pods-Instag-InstagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instag-InstagUITests.release.xcconfig"; path = "Target Support Files/Pods-Instag-InstagUITests/Pods-Instag-InstagUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CD6AF62D28A5945898FAA56 /* Pods-InstagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagTests.debug.xcconfig"; path = "Target Support Files/Pods-InstagTests/Pods-InstagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9776173C3560E401ACB194 /* Pods_Instag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835D291B71169C0005D623B0 /* Pods_InstagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D13875272241CF001417FC /* Instag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D13878272241CF001417FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93D1387A272241CF001417FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93D1387F272241CF001417FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93D13881272241CF001417FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D13884272241CF001417FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93D13886272241CF001417FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D1388B272241D0001417FC /* InstagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D1388F272241D0001417FC /* InstagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagTests.swift; sourceTree = "<group>"; };
+		93D13891272241D0001417FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D13896272241D0001417FC /* InstagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D1389A272241D0001417FC /* InstagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagUITests.swift; sourceTree = "<group>"; };
+		93D1389C272241D0001417FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D138A827224544001417FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93D138AA27224557001417FC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		93D138AC27224D75001417FC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		93D138AE272256AE001417FC /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D3DB226A0EC3E759BE1EF48E /* Pods-Instag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instag.release.xcconfig"; path = "Target Support Files/Pods-Instag/Pods-Instag.release.xcconfig"; sourceTree = "<group>"; };
+		F267754A31E416BCD7FB2813 /* Pods_Instag_InstagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instag_InstagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D13872272241CE001417FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB038C2D19A5E6E3291A24DB /* Pods_Instag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D13888272241D0001417FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882AD214243F29EF6D26025F /* Pods_InstagTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D13893272241D0001417FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0089AC73C796D471CB700 /* Pods_Instag_InstagUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D61B61921F2E69A3B6CEE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00EB9605D52641125B69C144 /* Pods-Instag.debug.xcconfig */,
+				D3DB226A0EC3E759BE1EF48E /* Pods-Instag.release.xcconfig */,
+				12655EF07F00559AE963A3F2 /* Pods-Instag-InstagUITests.debug.xcconfig */,
+				27D06E320F431AD7CBED3B60 /* Pods-Instag-InstagUITests.release.xcconfig */,
+				4CD6AF62D28A5945898FAA56 /* Pods-InstagTests.debug.xcconfig */,
+				156EE8775FB2349352D1CE30 /* Pods-InstagTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93D1386C272241CE001417FC = {
+			isa = PBXGroup;
+			children = (
+				93D13877272241CF001417FC /* Instag */,
+				93D1388E272241D0001417FC /* InstagTests */,
+				93D13899272241D0001417FC /* InstagUITests */,
+				93D13876272241CF001417FC /* Products */,
+				33D61B61921F2E69A3B6CEE1 /* Pods */,
+				EF8444FA0AB81594504AAD88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93D13876272241CF001417FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D13875272241CF001417FC /* Instag.app */,
+				93D1388B272241D0001417FC /* InstagTests.xctest */,
+				93D13896272241D0001417FC /* InstagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D13877272241CF001417FC /* Instag */ = {
+			isa = PBXGroup;
+			children = (
+				93D13878272241CF001417FC /* AppDelegate.swift */,
+				93D1387A272241CF001417FC /* SceneDelegate.swift */,
+				93D1387E272241CF001417FC /* Main.storyboard */,
+				93D13881272241CF001417FC /* Assets.xcassets */,
+				93D13883272241CF001417FC /* LaunchScreen.storyboard */,
+				93D13886272241CF001417FC /* Info.plist */,
+				93D138A827224544001417FC /* LoginViewController.swift */,
+				93D138AA27224557001417FC /* FeedViewController.swift */,
+				93D138AC27224D75001417FC /* CameraViewController.swift */,
+				93D138AE272256AE001417FC /* PostCell.swift */,
+			);
+			path = Instag;
+			sourceTree = "<group>";
+		};
+		93D1388E272241D0001417FC /* InstagTests */ = {
+			isa = PBXGroup;
+			children = (
+				93D1388F272241D0001417FC /* InstagTests.swift */,
+				93D13891272241D0001417FC /* Info.plist */,
+			);
+			path = InstagTests;
+			sourceTree = "<group>";
+		};
+		93D13899272241D0001417FC /* InstagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93D1389A272241D0001417FC /* InstagUITests.swift */,
+				93D1389C272241D0001417FC /* Info.plist */,
+			);
+			path = InstagUITests;
+			sourceTree = "<group>";
+		};
+		EF8444FA0AB81594504AAD88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B9776173C3560E401ACB194 /* Pods_Instag.framework */,
+				F267754A31E416BCD7FB2813 /* Pods_Instag_InstagUITests.framework */,
+				835D291B71169C0005D623B0 /* Pods_InstagTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D13874272241CE001417FC /* Instag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D1389F272241D0001417FC /* Build configuration list for PBXNativeTarget "Instag" */;
+			buildPhases = (
+				46F3389613D230FCA8A9CE3F /* [CP] Check Pods Manifest.lock */,
+				93D13871272241CE001417FC /* Sources */,
+				93D13872272241CE001417FC /* Frameworks */,
+				93D13873272241CE001417FC /* Resources */,
+				780C6D206FFFCC60D5794962 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instag;
+			productName = Instag;
+			productReference = 93D13875272241CF001417FC /* Instag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D1388A272241D0001417FC /* InstagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D138A2272241D0001417FC /* Build configuration list for PBXNativeTarget "InstagTests" */;
+			buildPhases = (
+				BD20F7EF6147C72C2EED7449 /* [CP] Check Pods Manifest.lock */,
+				93D13887272241D0001417FC /* Sources */,
+				93D13888272241D0001417FC /* Frameworks */,
+				93D13889272241D0001417FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D1388D272241D0001417FC /* PBXTargetDependency */,
+			);
+			name = InstagTests;
+			productName = InstagTests;
+			productReference = 93D1388B272241D0001417FC /* InstagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93D13895272241D0001417FC /* InstagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D138A5272241D0001417FC /* Build configuration list for PBXNativeTarget "InstagUITests" */;
+			buildPhases = (
+				D3598AA071C57E7FA974D745 /* [CP] Check Pods Manifest.lock */,
+				93D13892272241D0001417FC /* Sources */,
+				93D13893272241D0001417FC /* Frameworks */,
+				93D13894272241D0001417FC /* Resources */,
+				E9913053A4EE60F7F7220E9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D13898272241D0001417FC /* PBXTargetDependency */,
+			);
+			name = InstagUITests;
+			productName = InstagUITests;
+			productReference = 93D13896272241D0001417FC /* InstagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D1386D272241CE001417FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					93D13874272241CE001417FC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					93D1388A272241D0001417FC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 93D13874272241CE001417FC;
+					};
+					93D13895272241D0001417FC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 93D13874272241CE001417FC;
+					};
+				};
+			};
+			buildConfigurationList = 93D13870272241CE001417FC /* Build configuration list for PBXProject "Instag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D1386C272241CE001417FC;
+			productRefGroup = 93D13876272241CF001417FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D13874272241CE001417FC /* Instag */,
+				93D1388A272241D0001417FC /* InstagTests */,
+				93D13895272241D0001417FC /* InstagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D13873272241CE001417FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D13885272241CF001417FC /* LaunchScreen.storyboard in Resources */,
+				93D13882272241CF001417FC /* Assets.xcassets in Resources */,
+				93D13880272241CF001417FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D13889272241D0001417FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D13894272241D0001417FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46F3389613D230FCA8A9CE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780C6D206FFFCC60D5794962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instag/Pods-Instag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instag/Pods-Instag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instag/Pods-Instag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD20F7EF6147C72C2EED7449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstagTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3598AA071C57E7FA974D745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instag-InstagUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9913053A4EE60F7F7220E9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instag-InstagUITests/Pods-Instag-InstagUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instag-InstagUITests/Pods-Instag-InstagUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instag-InstagUITests/Pods-Instag-InstagUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D13871272241CE001417FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D138A927224544001417FC /* LoginViewController.swift in Sources */,
+				93D138AD27224D75001417FC /* CameraViewController.swift in Sources */,
+				93D13879272241CF001417FC /* AppDelegate.swift in Sources */,
+				93D138AB27224557001417FC /* FeedViewController.swift in Sources */,
+				93D1387B272241CF001417FC /* SceneDelegate.swift in Sources */,
+				93D138AF272256AE001417FC /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D13887272241D0001417FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D13890272241D0001417FC /* InstagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D13892272241D0001417FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D1389B272241D0001417FC /* InstagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D1388D272241D0001417FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D13874272241CE001417FC /* Instag */;
+			targetProxy = 93D1388C272241D0001417FC /* PBXContainerItemProxy */;
+		};
+		93D13898272241D0001417FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D13874272241CE001417FC /* Instag */;
+			targetProxy = 93D13897272241D0001417FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93D1387E272241CF001417FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D1387F272241CF001417FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93D13883272241CF001417FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D13884272241CF001417FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D1389D272241D0001417FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93D1389E272241D0001417FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D138A0272241D0001417FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EB9605D52641125B69C144 /* Pods-Instag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Instag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang321.Instag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93D138A1272241D0001417FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DB226A0EC3E759BE1EF48E /* Pods-Instag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Instag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang321.Instag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93D138A3272241D0001417FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD6AF62D28A5945898FAA56 /* Pods-InstagTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstagTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang321.InstagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instag.app/Instag";
+			};
+			name = Debug;
+		};
+		93D138A4272241D0001417FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156EE8775FB2349352D1CE30 /* Pods-InstagTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstagTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang321.InstagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instag.app/Instag";
+			};
+			name = Release;
+		};
+		93D138A6272241D0001417FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12655EF07F00559AE963A3F2 /* Pods-Instag-InstagUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang321.InstagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instag;
+			};
+			name = Debug;
+		};
+		93D138A7272241D0001417FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D06E320F431AD7CBED3B60 /* Pods-Instag-InstagUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang321.InstagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D13870272241CE001417FC /* Build configuration list for PBXProject "Instag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D1389D272241D0001417FC /* Debug */,
+				93D1389E272241D0001417FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D1389F272241D0001417FC /* Build configuration list for PBXNativeTarget "Instag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D138A0272241D0001417FC /* Debug */,
+				93D138A1272241D0001417FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D138A2272241D0001417FC /* Build configuration list for PBXNativeTarget "InstagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D138A3272241D0001417FC /* Debug */,
+				93D138A4272241D0001417FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D138A5272241D0001417FC /* Build configuration list for PBXNativeTarget "InstagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D138A6272241D0001417FC /* Debug */,
+				93D138A7272241D0001417FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D1386D272241CE001417FC /* Project object */;
+}

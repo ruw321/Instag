@@ -1,0 +1,6 @@
+framework module Pods_Instag_InstagUITests {
+  umbrella header "Pods-Instag-InstagUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
