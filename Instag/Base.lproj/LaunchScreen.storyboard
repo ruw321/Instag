@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Icon-61" translatesAutoresizingMaskIntoConstraints="NO" id="n7f-1V-KnA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Icon-61" translatesAutoresizingMaskIntoConstraints="NO" id="n7f-1V-KnA">
                                 <rect key="frame" x="62" y="213" width="290" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n7f-1V-KnA" secondAttribute="bottom" constant="359" id="9Gd-Od-bRn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n7f-1V-KnA" secondAttribute="trailing" constant="62" id="Tfj-Fo-ahV"/>
+                            <constraint firstItem="n7f-1V-KnA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="169" id="ixC-NO-wVS"/>
+                            <constraint firstItem="n7f-1V-KnA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="j9a-QF-RbS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

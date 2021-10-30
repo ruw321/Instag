@@ -11,8 +11,6 @@ import Parse
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let parseConfig = ParseClientConfiguration {
@@ -21,6 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: parseConfig)
+        
+//        if PFUser.current() != nil {
+//            let main = UIStoryboard(name: "Main", bundle: nil)
+//            let loginViewController = main.instantiateViewController(identifier: "LoginViewController")
+//            guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else {return }
+//            delegate.window?.rootViewController = loginViewController
+//        }
+//        
         return true
     }
 

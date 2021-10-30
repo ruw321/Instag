@@ -8,6 +8,7 @@ target 'Instag' do
   # Pods for Instag
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
   target 'InstagTests' do
     inherit! :search_paths
